@@ -1,4 +1,5 @@
-Uses raytracing to simmulate the view of a camera looking at a black hole. The skybox is <img width="1000" height="1000" alt="blackhole" src="https://github.com/user-attachments/assets/dca466ca-20eb-4469-8971-7e84afcb2e31" />
+Uses raytracing to simmulate the view of a camera looking at a black hole. The skybox (background of the black hole) is <img width="442" height="442" alt="skybox" src="https://github.com/user-attachments/assets/9651fd35-05a0-422e-9139-898da86bccfc" />
+
 
 (Stored in `skybox.png`).
 
