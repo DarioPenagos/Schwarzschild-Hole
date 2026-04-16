@@ -1,9 +1,11 @@
-Uses raytracing to simmulate the view of a camera looking at a black hole. The skybox (background of the black hole) is <img width="442" height="442" alt="skybox" src="https://github.com/user-attachments/assets/9651fd35-05a0-422e-9139-898da86bccfc" />
+Uses raytracing to simulate the view of a camera looking at a black hole. The skybox (background of the black hole) is <img width="442" height="442" alt="skybox" src="https://github.com/user-attachments/assets/9651fd35-05a0-422e-9139-898da86bccfc" />
 
 
 (Stored in `skybox.png`).
 
 The resulting image (in 1000x1000 px resolution) is <img width="1000" height="1000" alt="blackhole" src="https://github.com/user-attachments/assets/8b628def-0dc8-4727-89fa-7ee2d6357e45" />
+
+Traces null geodesics in Schwarzschild spacetime by numerically integrating the geodesic equation. Rays that cross the event horizon render black, rays that hit the accretion disk render green, and escaping rays sample the skybox, depending on their final position and direction.
 
   Dependencies: `numpy`, `scipy`, `Pillow` and `tqdm`
 
